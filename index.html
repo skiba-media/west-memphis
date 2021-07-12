@@ -32,15 +32,22 @@
   <link rel="stylesheet" href="css/custom.css">
   <!-- Facebook Pixel Code -->
   <script>
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
+    ! function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
         n.callMethod ?
 
           n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.async = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t, s)
     }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
@@ -75,6 +82,7 @@
       <!-- Navbar menu-->
       <ul class="navbar-nav ml-auto" style="align-items: center">
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
         <li class="nav-item"><a class="nav-link" href="#mission">Our Mission</a></li>
         <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
         <!-- <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li> -->
@@ -109,9 +117,9 @@
       <!-- Social media icons-->
       <div class="fixed-block block-right">
         <ul class="list-unstyled social-icons">
-          <li><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
-          <li><a href="#0"><i class="icon ion-logo-facebook"></i></a></li>
-          <li><a href="#0"><i class="icon ion-logo-instagram"></i></a></li>
+          <li><a href="https://www.facebook.com/mainstreetwestmemphis"><i class="icon ion-logo-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/mainstreetwestmemphis/"><i class="icon ion-logo-instagram"></i></a>
+          </li>
         </ul>
       </div>
     </div>
@@ -128,8 +136,8 @@
             <div class="row">
               <div class="col-12">
                 <div class="section-heading page-heading">
-                  <p class="section-description">WHO WE ARE</p>
-                  <h2 class="section-title">About US</h2>
+                  <p class="section-description">Who We Are</p>
+                  <h2 class="section-title">About Us</h2>
                   <div class="animated-bar"></div>
                 </div>
               </div>
@@ -138,8 +146,8 @@
             <div class="info-section single-section">
               <div class="row align-items-center">
                 <!-- Picture part-->
-                <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail" src="img/info-img.jpg"
-                    alt="About Picture"></div>
+                <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail"
+                    src="img/gallery/water-tower.png" alt="About Picture"></div>
                 <!-- Content part-->
                 <div class="col-12 col-lg-7 info-content">
                   <div class="content-block">
@@ -161,11 +169,10 @@
                           Contact Us
                         </a>
                         <ul class="list-unstyled list-inline content-follow">
-                          <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
-                          <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-instagram"></i></a></li>
-                          <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-linkedin"></i></a></li>
-                          <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-github"></i></a></li>
-                          <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-facebook"></i></a></li>
+                          <li class="list-inline-item"><a href="https://www.facebook.com/mainstreetwestmemphis"><i
+                                class="icon ion-logo-instagram"></i></a></li>
+                          <li class="list-inline-item"><a href="https://www.instagram.com/mainstreetwestmemphis/"><i
+                                class="icon ion-logo-facebook"></i></a></li>
                         </ul>
                       </div>
                   </div>
@@ -356,6 +363,117 @@
       </div>
     </div>
   </div>
+  <!--Events lightbox-->
+  <div class="lightbox-wrapper" id="events" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Come See Us</p>
+                  <h2 class="section-title">Upcoming Events</h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Events section-->
+          <div class="services-section single-section">
+            <div class="row">
+              <!-- Single Event-->
+              <div class="col-12 col-md-6 col-lg-6">
+                <image src="https://picsum.photos/1028/1028" class="img-fluid" />
+                <div class="single-service">
+
+                  <div class="event-title">
+                    <span>
+                      <div class="event-name">Event Name</div>
+                      <div class="event-location">213 East Broadway West Memphis, AR 72301</div>
+                    </span>
+                    <span>
+                      <small class="event-date">5 PM SAT, 8th of Febuary</small>
+                    </span>
+                  </div>
+                  <p class="service-description">
+                    Velit qui adipisicing exercitation cillum. Reprehenderit sit amet est id consequat et ex ex anim sit
+                    dolor ea. Sit ad irure pariatur proident aliquip irure laboris. Id duis pariatur aliqua aliquip.
+                    Laborum do velit eu consequat veniam ex magna. </p>
+                </div>
+              </div>
+              <!-- Single Event-->
+              <div class="col-12 col-md-6 col-lg-6">
+                <image src="https://picsum.photos/1028/1028" class="img-fluid" />
+                <div class="single-service">
+
+                  <div class="event-title">
+                    <span>
+                      <div class="event-name">Event Name</div>
+                      <div class="event-location">213 East Broadway West Memphis, AR 72301</div>
+                    </span>
+                    <span>
+                      <small class="event-date">5 PM SAT, 8th of Febuary</small>
+                    </span>
+                  </div>
+                  <p class="service-description">
+                    Velit qui adipisicing exercitation cillum. Reprehenderit sit amet est id consequat et ex ex anim sit
+                    dolor ea. Sit ad irure pariatur proident aliquip irure laboris. Id duis pariatur aliqua aliquip.
+                    Laborum do velit eu consequat veniam ex magna. </p>
+                </div>
+              </div>
+              <!-- Single Event-->
+              <div class="col-12 col-md-6 col-lg-6">
+                <image src="https://picsum.photos/1028/1028" class="img-fluid" />
+                <div class="single-service">
+
+                  <div class="event-title">
+                    <span>
+                      <div class="event-name">Event Name</div>
+                      <div class="event-location">213 East Broadway West Memphis, AR 72301</div>
+                    </span>
+                    <span>
+                      <small class="event-date">5 PM SAT, 8th of Febuary</small>
+                    </span>
+                  </div>
+                  <p class="service-description">
+                    Velit qui adipisicing exercitation cillum. Reprehenderit sit amet est id consequat et ex ex anim sit
+                    dolor ea. Sit ad irure pariatur proident aliquip irure laboris. Id duis pariatur aliqua aliquip.
+                    Laborum do velit eu consequat veniam ex magna. </p>
+                </div>
+              </div>
+              <!-- Single Event-->
+              <div class="col-12 col-md-6 col-lg-6">
+                <image src="https://picsum.photos/1028/1028" class="img-fluid" />
+                <div class="single-service">
+
+                  <div class="event-title">
+                    <span>
+                      <div class="event-name">Event Name</div>
+                      <div class="event-location">213 East Broadway West Memphis, AR 72301</div>
+                    </span>
+                    <span>
+                      <small class="event-date">5 PM SAT, 8th of Febuary</small>
+                    </span>
+                  </div>
+                  <p class="service-description">
+                    Velit qui adipisicing exercitation cillum. Reprehenderit sit amet est id consequat et ex ex anim sit
+                    dolor ea. Sit ad irure pariatur proident aliquip irure laboris. Id duis pariatur aliqua aliquip.
+                    Laborum do velit eu consequat veniam ex magna. </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
   <!-- Mission lightbox-->
   <div class="lightbox-wrapper" id="mission" data-simplebar>
     <div class="container">
@@ -692,7 +810,8 @@
                               class="icon ion-md-map"></i></span>
                           <div class="media-body info-details">
                             <h6 class="info-type">Location</h6><span class="info-value">
-                              Address Goes Here, West Memphis, 72204, AR
+                              213 East Broadway
+                              West Memphis, AR 72301
                             </span>
                           </div>
                         </div>
@@ -701,8 +820,8 @@
                         <div class="media align-items-center"><span class="info-icon"><i
                               class="icon ion-md-call"></i></span>
                           <div class="media-body info-details">
-                            <h6 class="info-type">Call Us</h6><span class="info-value"><a href="tel:+18707358814">870
-                                735 8814</a></span>
+                            <h6 class="info-type">Call Us</h6><span class="info-value"><a href="tel:+18707358814">
+                                (870) 735-8814</a></span>
                           </div>
                         </div>
                       </li>
@@ -711,7 +830,7 @@
                               class="icon ion-md-send"></i></span>
                           <div class="media-body info-details">
                             <h6 class="info-type">Email Us</h6><span class="info-value"><a
-                                href="mailto:emma@example.com">emma@example.com</a></span>
+                                href="mailto:emma@example.com">dabernthy@broadwaywestmemphis.com</a></span>
                           </div>
                         </div>
                       </li>
